@@ -96,6 +96,8 @@ plt.xlabel('Years')
 plt.ylabel('Amount')
 plt.show()
 
+#Calculate investment return
+
 flow = np.sum(compound_cashflow)
 print('Total expected cash flow during investment period =', flow)
 gain = [ compound_principal[-1] - zero ]
