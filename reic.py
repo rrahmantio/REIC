@@ -11,21 +11,21 @@ import matplotlib.pyplot as plt
 
 #input value
 
-principal_amount=int(input('house price'))
+principal_amount=int(input('house price = '))
 
-refurbishment=int(input('cost of refurbishment'))
+refurbishment=int(input('cost of refurbishment = '))
 
-no_of_years=int(input('number of years to calculate investment'))
+no_of_years=int(input('number of years to calculate investment = '))
 
-interest_rate=float(input('% property interest rate'))
+interest_rate=float(input('% property interest rate = '))
 
-rental_value=int(input('property rental value'))
+rental_value=int(input('property rental value = '))
 
-rental_rate_increase=float(input('% rental rate increase'))
+rental_rate_increase=float(input('% rental rate increase = '))
 
-cost_value=int(input('annual cost of tax and maintenance'))
+cost_value=int(input('annual cost of tax and maintenance = '))
 
-cost_increase=float(input('% increase in cost of tax and maintenance'))
+cost_increase=float(input('% increase in cost of tax and maintenance = '))
 
 compound_principal=list()
 compound_rental=list()
